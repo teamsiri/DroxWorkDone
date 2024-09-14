@@ -1,0 +1,8 @@
+#!/bin/bash
+cd $(cd $(dirname $0); pwd)
+
+unzip luatele.zip
+sudo lua5.3 BuKa.lua
+;;
+esac
+
